@@ -4,6 +4,11 @@
 }
 
 @font-face {
+  font-family: 'sf-display-light';
+  src: url('../public/fonts/SFProDisplay-Light.ttf');
+}
+
+@font-face {
   font-family: 'sf-display-med';
   src: url('../public/fonts/SFProDisplay-Medium.ttf');
 }
@@ -37,8 +42,8 @@ body {
 
 .name-text {
   color: #DADADA;
-  font-family: 'sf-display-med';
-  font-size: 100px;
+  font-family: 'sf-display-bold';
+  font-size: 120px;
 }
 
 .title-text {
@@ -47,6 +52,7 @@ body {
   font-size: 45px;
   margin-bottom: 50%;
 }
+
 
 .date-text {
   color: #ABABAB;
@@ -80,8 +86,20 @@ p {
 
 /* --------------------------------------------- COMPONENTS ------------------------------------------- */
 
+.home-container {
+  height: 100vh;
+  width: 100vh;
+  display: flex;
+}
+
+.home {
+  position: absolute;
+  left: calc((100% - 900px)/2);
+  top: 40%;
+}
+
 .about {
-  margin-top: 50%;
+  margin-bottom: 50%;
 }
 
 .player {
@@ -104,22 +122,23 @@ p {
 }
 
 .tag {
-  font-family: 'sf-display-bold';
+  font-family: 'sf-display-med';
   background-color: #243A1E;
   color: #88FF6A;
-  padding: 5px 10px;
+  padding: 8px 13px;
   border-radius: 30px;
   margin-right: 10px;
   margin-bottom: 10px;
 }
 
 .projects {
-  margin-top: 150px;
+  margin-top: 30%;
   margin-bottom: 100px;
 }
 
 .project-widget {
   display: flex;
+  margin-top: 75px;
 }
 
 .project-img {
@@ -134,8 +153,9 @@ p {
 
 .side-nav {
   position: fixed;
-  bottom: 50%;
-  right: 300px;
+  bottom: 60%;
+  top: 40%;
+  right: 5%;
   font-family: 'cascadia';
   font-size: 18px;
   display: inline-block;
@@ -145,16 +165,26 @@ p {
   color: #ABABAB;
   display: block;
   text-decoration: none;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
-.side-nav a:active {
-  color: #88FF6A;
-}
 
 .side-nav a:hover {
   color: #88FF6A;
 }
 
+/* --------------------------------------------- SOCIALS ------------------------------------------- */
 
+
+.socials {
+  position: fixed;
+  bottom: 60%;
+  top: 40%;
+  left: 5%;
+}
+
+.socials a {
+  display: block;
+  margin-bottom: 25px;
+}
 
