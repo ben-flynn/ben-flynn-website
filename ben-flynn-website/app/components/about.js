@@ -12,9 +12,9 @@ export default function About() {
             <div className="songs">
                 <TypeAnimation
                     sequence={[
-                    'app/user/about> curl -X GET "http://spotify.com"',
+                    '$ curl -X GET "http://spotify.com"',
                     1000, 
-                    'app/user/about> --request-target "/benflynn?param=mostreplayed"',
+                    '$ --request-target "/benflynn?param=mostreplayed"',
                     1000,
                     ]}
                     wrapper="span"
