@@ -28,8 +28,14 @@
   src: url('../public/fonts/SFProDisplay-SemiBold.ttf');
 }
 
+@font-face {
+  font-family: 'sf-text-reg';
+  src: url('../public/fonts/SF-Pro-Text-Regular.otf');
+}
+
 body {
-  background-color: #0C0C0C;
+  background-color: #0D1117;
+  margin: 0px;
 }
 
 /* --------------------------------------------- TEXT ------------------------------------------- */
@@ -37,78 +43,104 @@ body {
 .code-text {
   color: #88FF6A;
   font-family: 'cascadia';
-  font-size: 20px;
+  font-size: 16.5px;
 }
 
 .name-text {
   color: #DADADA;
   font-family: 'sf-display-bold';
-  font-size: 120px;
+  font-size: 70px;
 }
 
 .title-text {
   color: #DADADA;
   font-family: 'sf-display-reg';
-  font-size: 45px;
-  margin-bottom: 50%;
-}
+  font-size: 35px;
 
+}
 
 .date-text {
   color: #ABABAB;
   font-family: 'cascadia';
-  font-size: 20px;
+  font-size: 16px;
   opacity: 60%;
-  margin-bottom: 8px;
+  margin-bottom: 15px;
 }
 
 .heading-text {
   color: #DADADA;
   font-family: 'sf-display-semi';
-  font-size: 30px;
+  font-size: 23px;
 }
 
 p {
-  color: #ABABAB;
-  font-family: 'cascadia';
-  font-size: 18px;
-  line-height: 150%;
+  color: #a5a5a5;
+  font-family: 'sf-text-reg';
+  font-size: 20px;
+  line-height: 160%;
+}
+
+.exp{
+  font-size: 16px;
 }
 
 /* --------------------------------------------- CONTAINER ------------------------------------------- */
 
 .container {
-  max-width: 900px;
-  margin-left: auto;
+  position: relative;
+}
+
+.page-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 96px;
+  padding-right: 96px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  min-height: 100vh;
+  max-width: 1200px;
   margin-right: auto;
+  margin-left: auto;
+}
+
+.content-container {
+  width: 650px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 
 /* --------------------------------------------- COMPONENTS ------------------------------------------- */
 
-.home-container {
-  height: 100vh;
-  width: 100vh;
+.main-container {
+  position: sticky;
   display: flex;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  top: 0;
+  left: 0;
+  max-height: calc(100vh - 192px);
+  width: 50%;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .home {
-  position: absolute;
-  left: calc((100% - 900px)/2);
-  top: 40%;
-}
-
-.about {
-  margin-bottom: 50%;
+  width: 350px;
 }
 
 .player {
   border: none;
-  margin-top: 25px;
+  margin-top: 20px;
+  font-family: 'cascadia';
+}
+
+.songs{
+  margin-top: 5%;
 }
 
 .expierence {
-  margin-top: 150px;
+  padding-top: 25%;
 }
 
 .job {
@@ -122,18 +154,16 @@ p {
 }
 
 .tag {
-  font-family: 'sf-display-med';
-  background-color: #243A1E;
-  color: #88FF6A;
+  font-family: 'sf-text-reg';
+  background-color: rgba(36, 58, 30, 0.400);
+  color: #88ff6ae1;
   padding: 8px 13px;
   border-radius: 30px;
   margin-right: 10px;
-  margin-bottom: 10px;
 }
 
 .projects {
-  margin-top: 30%;
-  margin-bottom: 100px;
+  padding-top: 20%;
 }
 
 .project-widget {
@@ -152,39 +182,27 @@ p {
 
 
 .side-nav {
-  position: fixed;
-  bottom: 60%;
-  top: 40%;
-  right: 5%;
+  margin-top: 60px;
   font-family: 'cascadia';
   font-size: 18px;
   display: inline-block;
 }
 
 .side-nav a {
-  color: #ABABAB;
   display: block;
   text-decoration: none;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 
 .side-nav a:hover {
-  color: #88FF6A;
+  color: #88FF6A !important; 
 }
 
 /* --------------------------------------------- SOCIALS ------------------------------------------- */
 
 
-.socials {
-  position: fixed;
-  bottom: 60%;
-  top: 40%;
-  left: 5%;
-}
-
 .socials a {
-  display: block;
-  margin-bottom: 25px;
+  margin-right: 40px;
 }
 

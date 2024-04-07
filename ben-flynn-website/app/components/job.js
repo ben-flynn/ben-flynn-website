@@ -5,7 +5,7 @@ export default function Job({timeWindow, title, company, description, tags}) {
         <div className="job">
             <div className="date-text">{timeWindow}</div>
             <div className="heading-text">{title} | {company}</div>
-            <p>{description}</p>
+            <p className="exp">{description}</p>
             <div className="tags">
                 {tags.map((tag, index) => (
                     <Tag key={index} tech={tag}/>
