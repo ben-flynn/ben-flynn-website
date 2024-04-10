@@ -140,7 +140,7 @@ p {
 }
 
 .expierence {
-  padding-top: 25%;
+  padding-top: 30%;
 }
 
 .job {
@@ -206,3 +206,78 @@ p {
   margin-right: 40px;
 }
 
+
+
+/* --------------------------------------------- RESPONSIVE ------------------------------------------- */
+@media only screen and (max-width: 1100px) {
+
+  .page-container {
+    display: block;
+  }
+
+  .content-container {
+    width: 100%;
+    max-width: none;
+  }
+
+  .main-container {
+    width: 100%;
+    position: relative;
+    max-height: none;
+
+  }
+
+  .home {
+    width: 100%;
+  }
+
+  .tag {
+    margin-bottom: 10px;
+  }
+
+  .socials {
+    margin-top: 60px;
+  }
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  .page-container {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+  .code-text {
+    font-size: 15px;
+  }
+  
+  .name-text {
+    font-size: 50px;
+  }
+  
+  .title-text {
+    font-size: 25px;
+  }
+  
+  .date-text {
+    font-size: 16px;
+  }
+  
+  .heading-text {
+    font-size: 20px;
+  }
+  
+  p {
+    font-size: 15px;
+  }
+  
+  .exp{
+    font-size: 15px;
+  }
+
+  .side-nav {
+    font-size: 12px;
+    display: flex;
+  }
+  
+}

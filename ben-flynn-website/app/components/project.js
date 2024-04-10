@@ -5,7 +5,6 @@ export default function Project({src, title, desc, tags }) {
     return (
         <div className="project">
             <div className="project-widget">
-                <Image className="project-img" src={src} height={100} width={190}/>
                 <div className="widget-text">
                     <div className="heading-text">{title}</div>
                     <p>{desc}</p>

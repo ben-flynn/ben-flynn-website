@@ -4,7 +4,7 @@ export default function SpotifyPlayer({url}) {
         className="player" 
         src={url}
         width="100%" 
-        height="152" 
+        height="90" 
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
         loading="lazy"></iframe>
     )

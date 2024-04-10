@@ -22,7 +22,7 @@ export default function About() {
                     className="code-text"
                     repeat={Infinity}
                 />
-                <SpotifyPlayer url={"https://open.spotify.com/embed/track/1yCE0X5qLWOrLkR8NC0ZUJ?utm_source=generator"}/>
+                <SpotifyPlayer url={"https://open.spotify.com/embed/track/1yCE0X5qLWOrLkR8NC0ZUJ?utm_source=generator&theme=0"}/>
             </div>
         </div>
     )
