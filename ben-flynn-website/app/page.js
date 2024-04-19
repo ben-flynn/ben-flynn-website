@@ -6,6 +6,7 @@ import Project from "./components/project";
 import "./globals.css";
 import Main from "./components/main";
 import { useEffect } from "react";
+import Head from "next/head";
 
 let about;
 let exp;
