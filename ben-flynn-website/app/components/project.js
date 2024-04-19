@@ -1,5 +1,4 @@
 import Tag from "./tag";
-import Image from "next/image";
 
 export default function Project({src, title, desc, tags }) {
     return (

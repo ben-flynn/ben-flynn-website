@@ -33,8 +33,10 @@ export default function Home() {
               timeWindow="May 2023 - September 2023"
               title="Software Developer"
               company="Interac Corp. / 2Keys"
-              description="Spearheaded the development of a full stack application, which allowed users to test the authentication flow of any platform using the open-id- connect protocol, to ensure the seamless flow of financial data exchange within the organization.
-              Pioneered the creation of a financial data exchange simulator application, enhancing testing capabilities and streamlining the validation process for financial transactions.
+              description="Worked on the development of a full stack application, which allowed users to test the authentication flow of any platform using the open-id- connect protocol.
+              Updated a financial data exchange simulator application, enhancing testing capabilities and used AI to automate dummy data production.
+              Created multiple Keycloak environments in order to secure applications.
+              Embraced agile development methodologies, fostering collaboration within cross-functional teams, participating in daily stand-ups, and using Jira to facilitate efficient project management and progress tracking. 
               "
               tags={["Java", "Docker", "Springboot", "Keycloak", "Open-ID connect"]}
             />
@@ -42,7 +44,7 @@ export default function Home() {
               timeWindow="May 2023 - October 2023"
               title="Backend Developer"
               company="Advanced Evnironmental Molecular Analytics "
-              description="Engineered a robust backend application leveraging SpringBoot and MySql to effectively process and store wastewater reports, ensuring seamless data management and retrieval.
+              description="Engineered a backend application with SpringBoot and MySql to process and store wastewater reports, ensuring seamless data management and retrieval.
               Implemented Amazon Web Services Elastic Beanstalk and RDS for the deployment of the application, optimizing scalability and reliability while adhering to industry best practices for cloud infrastructure.
               "
               tags={["Java", "Springboot", "AWS", "MySQL"]}
@@ -59,21 +61,18 @@ export default function Home() {
           </div>
           <div className="projects" id="projects">
             <Project
-            src={"/photos/catmaps.JPG"}
             title="mapcats.ca"
-            desc={"Spearheaded the development of a full stack application, which allowed users to test the authentication."}
+            desc={"Next.js application which uses google-maps api to map stray cat colonies "}
+            tags={["Next.js", "HTML", "Javascript", "CSS", "Google-maps api"]}
+            />
+            <Project
+            title="benflynn.dev"
+            desc={"Github repository for this website."}
             tags={["Java", "Docker", "Springboot", "AWS"]}
             />
             <Project
-            src={"/photos/catmaps.JPG"}
-            title="mapcats.ca"
-            desc={"Spearheaded the development of a full stack application, which allowed users to test the authentication."}
-            tags={["Java", "Docker", "Springboot", "AWS"]}
-            />
-            <Project
-            src={"/photos/catmaps.JPG"}
-            title="mapcats.ca"
-            desc={"Spearheaded the development of a full stack application, which allowed users to test the authentication."}
+            title="Pdf invoice processing"
+            desc={"Spring app which processes pdf invoices and stores relevent information in a relational database"}
             tags={["Java", "Docker", "Springboot", "AWS"]}
             />
           </div>
