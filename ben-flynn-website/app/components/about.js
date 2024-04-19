@@ -5,8 +5,8 @@ import SpotifyPlayer from "./spotifyPlayer"
 export default function About() {
     return (
         <div className="about" id="about">
-            <p>My full name is Benjamin Flynn, I was born and currently live in Ottawa, Canada. I am currently pursuing a degree in software engineering at The University of Ottawa . Outside of school I am a very out and easy going person, I enjoy playing sports like volleyball and basketball</p>
-            <p>I enjoy doing backend work and I specifically have a lot of expierence using SpringBoot. I have worked and am currently working on apps that automate pdf and excel document processing.</p>
+            <p>My full name is Benjamin Flynn, I was born and currently live in Ottawa, Canada. I am currently pursuing a degree in software engineering at The University of Ottawa . Outside of school I am a very out and easy going person, I enjoy playing sports like volleyball and basketball.</p>
+            <p>I enjoy doing backend work and I specifically have a lot of experience using SpringBoot. I have worked and am currently working on apps that automate pdf and excel document processing.</p>
             <p>I am very eager to learn new things feel free to send me a message anytime.</p>
 
             <div className="songs">

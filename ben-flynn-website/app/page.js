@@ -29,7 +29,7 @@ export default function Home() {
         <Main/>
         <div className="content-container">
           <About/>
-          <div className="expierence" id="expierence">
+          <div className="experience" id="experience">
             <Job
               timeWindow="May 2023 - September 2023"
               title="Software Developer"
@@ -86,7 +86,7 @@ export default function Home() {
 function handleSideNavChanges() {
 
     about = document.getElementById("about").getBoundingClientRect();
-    exp = document.getElementById("expierence").getBoundingClientRect();
+    exp = document.getElementById("experience").getBoundingClientRect();
     projects = document.getElementById("projects").getBoundingClientRect();
 
     OnScroll();
