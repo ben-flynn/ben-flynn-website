@@ -73,6 +73,7 @@ body {
   font-size: 23px;
 }
 
+
 p {
   color: #a5a5a5;
   font-family: 'sf-text-reg';
@@ -80,8 +81,12 @@ p {
   line-height: 160%;
 }
 
-.exp{
+.exp {
   font-size: 17px;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* --------------------------------------------- CONTAINER ------------------------------------------- */
@@ -89,6 +94,11 @@ p {
 .container {
   position: relative;
 }
+
+.container a :hover {
+  color: #88FF6A;
+}
+
 
 .page-container {
   display: flex;
@@ -145,6 +155,7 @@ p {
 
 .job {
   margin-bottom: 50px;
+  box-sizing: border-box;
 }
 
 .tags {
@@ -164,6 +175,7 @@ p {
 
 .projects {
   padding-top: 20%;
+  padding-bottom: 50%;
 }
 
 .project-widget {

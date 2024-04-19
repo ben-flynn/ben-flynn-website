@@ -39,15 +39,17 @@ export default function Home() {
               Embraced agile development methodologies, fostering collaboration within cross-functional teams, participating in daily stand-ups, and using Jira to facilitate efficient project management and progress tracking. 
               "
               tags={["Java", "Docker", "Springboot", "Keycloak", "Open-ID connect"]}
+              link={"https://www.interac.ca/"}
             />
             <Job
               timeWindow="May 2023 - October 2023"
               title="Backend Developer"
-              company="Advanced Evnironmental Molecular Analytics "
+              company="Advanced Environmental Molecular Analytics "
               description="Engineered a backend application with SpringBoot and MySql to process and store wastewater reports, ensuring seamless data management and retrieval.
               Implemented Amazon Web Services Elastic Beanstalk and RDS for the deployment of the application, optimizing scalability and reliability while adhering to industry best practices for cloud infrastructure.
               "
               tags={["Java", "Springboot", "AWS", "MySQL"]}
+              link={"https://www.aema-canada.com/"}
             />
             <Job
               timeWindow="September 2022 - December 2022"
@@ -57,23 +59,21 @@ export default function Home() {
               Designed and developed engaging web pages, incorporating user-centric design principles and enhancing the overall user experience.
               "
               tags={["Drupal", "HTML", "CSS", "Google Analytics"]}
+              link={"https://www.uottawa.ca/about-us/information-technology"}
             />
           </div>
           <div className="projects" id="projects">
             <Project
             title="mapcats.ca"
-            desc={"Next.js application which uses google-maps api to map stray cat colonies "}
+            desc={"Next.js application which uses google-maps api to map stray cat colonies"}
             tags={["Next.js", "HTML", "Javascript", "CSS", "Google-maps api"]}
+            link={"https://www.mapcats.ca/"}
             />
             <Project
             title="benflynn.dev"
-            desc={"Github repository for this website."}
-            tags={["Java", "Docker", "Springboot", "AWS"]}
-            />
-            <Project
-            title="Pdf invoice processing"
-            desc={"Spring app which processes pdf invoices and stores relevent information in a relational database"}
-            tags={["Java", "Docker", "Springboot", "AWS"]}
+            desc={"Github repository for this website that was built using NEXT.js"}
+            tags={["Next.js", "HTML", "Javascript", "CSS"]}
+            link={"https://github.com/ben-flynn/ben-flynn-website"}
             />
           </div>
         </div>
@@ -89,7 +89,6 @@ function handleSideNavChanges() {
     projects = document.getElementById("projects").getBoundingClientRect();
 
     OnScroll();
-
 
     document.addEventListener("scroll" , OnScroll, false);
     document.addEventListener("reload" , OnScroll, false);
