@@ -54,7 +54,7 @@ export default function Home() {
             />
             <Job
               timeWindow="September 2022 - December 2022"
-              title="UI/UX designer"
+              title="Web Developer"
               company="Information Technologie - University of Ottawa"
               description="Spearheaded the redesign and transformation of the Information Technology website to align with uOttawa's refreshed brand, ensuring a cohesive and contemporary online presence.
               Designed and developed engaging web pages, incorporating user-centric design principles and enhancing the overall user experience.
